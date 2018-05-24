@@ -1,0 +1,30 @@
+{
+    "name": "ppelgrims/faker-car",
+    "description": "Car, and car related data generation using fzaninotto/Faker",
+    "homepage": "https://github.com/ppelgrims/FakerCar",
+    "keywords": ["faker", "fixtures", "data", "car", "automotive"],
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        { "name": "Pieter Pelgrims" }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "fzaninotto/faker": "~1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7",
+        "squizlabs/php_codesniffer": "^1.5",
+        "ext-intl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakerCar\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FakerCar\\Test\\": "test/FakerCar/"
+        }
+    }
+}
