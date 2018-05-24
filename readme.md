@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ppelgrims/faker-car.svg?branch=master)](https://travis-ci.org/ppelgrims/faker-car)
+[![Build Status](https://travis-ci.org/ppelgrims/FakerCar.svg?branch=master)](https://travis-ci.org/ppelgrims/FakerCar)
 
 # FakerCar
 
